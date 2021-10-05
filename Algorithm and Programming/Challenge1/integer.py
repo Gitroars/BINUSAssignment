@@ -9,6 +9,6 @@ if integer%7 == 0:
     output += "c"
 if integer%2 == 0:
     output += "d"
-else:
+if output == "":
     output = "e"
 print(output)
