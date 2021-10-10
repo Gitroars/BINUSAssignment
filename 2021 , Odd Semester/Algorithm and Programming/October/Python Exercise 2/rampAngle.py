@@ -7,4 +7,4 @@ g = 9.8
 sinX = force/(mass*g)
 x = math.asin(sinX)
 x = math.degrees(x)
-print(round(x,1))
+print(f"The angle of the ramp is {round(x,1)}")
