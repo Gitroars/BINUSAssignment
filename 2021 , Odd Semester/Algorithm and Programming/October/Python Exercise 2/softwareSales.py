@@ -1,7 +1,7 @@
 retailPrice = 99
 numberOfPackagesPurchased = int(input("Enter the number of packages purchased : "))
 
-Price = (retailPrice*numberOfPackagesPurchased)
+price = (retailPrice * numberOfPackagesPurchased)
 
 if(19>=numberOfPackagesPurchased>=10):
     discountAmount = 10
@@ -14,8 +14,8 @@ elif (numberOfPackagesPurchased>=100):
 else:
     discountAmount = 0
 
-discount = (discountAmount/100)*Price
-totalPrice = Price - discount
+discount = (discountAmount/100) * price
+totalPrice = price - discount
 discount = '{0:,.2f}'.format(discount)
 totalPrice = '{0:,.2f}'.format(totalPrice)
 
