@@ -8,7 +8,7 @@ windSpeed = eval(input("Enter the wind speed miles per hour : "))
 
 while not(windSpeed>=2):
     print("Speed must be greater than or equal to 2")
-    temperature = eval(input("Please re-enter the temperature in Fahrenheit: "))
+    windSpeed = eval(input("Please re-enter the wind speed miles per hour: "))
 
 Twc = 35.74 + 0.6215*temperature - 35.75*windSpeed**0.16 + 0.4275*temperature*windSpeed**0.16
 Twc = '{0:,.3f}'.format(Twc)
