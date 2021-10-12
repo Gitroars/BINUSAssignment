@@ -16,6 +16,8 @@ else:
 
 discount = (discountAmount/100)*Price
 totalPrice = Price - discount
+discount = '{0:,.2f}'.format(discount)
+totalPrice = '{0:,.2f}'.format(totalPrice)
 
-print(f"Discount Amount @ {discountAmount}% : ${discount}"  )
+print(f"Discount Amount @ {discountAmount}% : ${discount}")
 print(f"Total Amount : ${totalPrice} ")
