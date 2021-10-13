@@ -9,4 +9,4 @@ x = math.asin(sinX)
 x = math.degrees(x)
 x = '{0:,.1f}'.format(x)
 
-print(f"The angle of the ramp is {x}")
+print(f"The angle of the ramp is {x} degrees")
