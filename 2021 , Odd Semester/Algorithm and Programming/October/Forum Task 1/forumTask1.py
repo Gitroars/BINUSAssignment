@@ -16,15 +16,15 @@ if numerator<denominator:
     print(f"{numerator}/{denominator} is a proper fraction")
     if gcd == 1: print("The proper fraction can't be reduced")
     elif gcd !=1:
-        numerator /= gcd
-        denominator /= gcd
+        numerator //= gcd
+        denominator //= gcd
         print(f"This proper fraction can be reduced to : {numerator}/{denominator}")
 elif numerator>=denominator:
     print(f"{numerator}/{denominator} is an improper fraction")
     if gcd == 1: print("The improper fraction can't be reduced")
     elif gcd !=1:
-        numerator /= gcd
-        denominator /= gcd
+        numerator //= gcd
+        denominator //= gcd
         print(f"This improper fraction can be reduced to : {numerator}/{denominator}")
     wholeNumber = numerator//denominator
     remainder = numerator%denominator
@@ -32,10 +32,3 @@ elif numerator>=denominator:
         print(f"The mixed number is {wholeNumber} and {remainder}/{denominator}")
     elif remainder == 0:
         print(f"The whole number is {wholeNumber}")
-
-
-
-
-
-
-
