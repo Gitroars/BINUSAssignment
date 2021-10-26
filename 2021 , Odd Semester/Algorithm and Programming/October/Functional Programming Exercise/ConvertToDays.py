@@ -10,3 +10,4 @@ def convertToDays():
     print("Total of days is: ",newDays)
 
 convertToDays()
+
